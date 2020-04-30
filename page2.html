@@ -1,0 +1,183 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Times New Roman;}
+
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+.tab button: {
+  background-color: #ddd;
+}
+
+.tab button.active {
+  background-color: #ccc;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  -webkit-animation: fadeEffect 1s;
+  animation: fadeEffect 1s;
+}
+
+@-webkit-keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+</style>
+
+    <title>Page 2</title>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Why Join?</a> |
+        <a href="page2.html">Classes & Training</a> |
+        <a href="page3.html">True Fitness @ AMK</a> |
+    </nav>
+<style>
+	div {
+  	background-color: MediumSeaGreen;
+  	width: 800px;
+  	border: 5px solid green;
+  	padding: 50px;
+  	margin: 20px;
+	}
+</style>
+<center><div><h1 style="color:white">TRUE FITNESS</h1></div>
+
+<h1>Classes (click on the tab that you are interested in!)</h1>
+
+<div class="tab">
+	<button class="tablinks" onclick="openCity(event, 'Aerobics')">Aerobics</button>
+	<button class="tablinks" onclick="openCity(event, 'Dance')">Dance</button>
+	<button class="tablinks" onclick="openCity(event, 'Spinning Classes')">Spinning Classes</button>
+	<button class="tablinks" onclick="openCity(event, 'Yoga and Pilates Matwork')">Yoga and Pilates Matwork</button>
+	<button class="tablinks" onclick="openCity(event, 'Personal Training')">Personal Training</button>
+</div>
+
+<div id="Aerobics" class="tabcontent">
+  <h2>Aerobics</h2>
+  
+  <h3>BODYATTACK</h3>
+  <p>BODYATTACK is the sports-inspired cardio workout for building strength and stamina. This high-energy interval training class combines athletic aerobic movements with strength and stabilization exercises. Dynamic instructors and powerful music motivate everyone towards their fitness goals - from the weekend athlete to the hard-core competitor!
+  </p>
+  
+  <h3>BODYCOMBAT</h3>
+  <p>BODYCOMBAT is the empowering cardio workout where you are totally unleashed. This fiercely energetic program is inspired by martial arts and draws from a wide array of disciplines such as karate, boxing, taekwondo, tai chi and muay thai. Supported by driving music and powerful instructors, you’ll strike, punch, kick and kata your way through calories to superior cardio fitness.
+  </p>
+  
+  <h3>BODYPUMP</h3>
+  <p>BODYPUMP is one of the world's fastest ways to get in shape as it challenges all of your major muscle groups by using the best weight room exercises while you squat, press, lift and curl. The cutting-edge BODYPUMP™ choreography and chart-topping music is refreshed every three months, so with your choice of weight and highly-trained instructors you can get the group effect and the results you've been looking for!
+  </p>
+  
+  <h3>BODYSTEP</h3>
+  <p>BODYSTEP is the energizing step workout that makes you feel liberated and alive, using a height-adjustable step and simple movements on, over and around the step. Cardio blocks push fat burning systems into high gear followed by muscle conditioning tracks that shape and tone your body. For those looking to increase the intensity and drive phenomenal results the circuit styled functional training of the BODYSTEP™ Athletic variation is ideal.
+  </p>
+ 
+</div>
+
+<div id="Dance" class="tabcontent">
+  <h2>Dance</h2>
+  
+  <h3>BODYJAM</h3>
+  <p>BODYJAM™ is the cardio workout where you are free to enjoy the sensation of dance. An addictive fusion of the latest dance styles and hottest new sounds puts the emphasis as much on having fun as on breaking a sweat. Funky instructors teach you to move with attitude through this 55-minute class. So grab a friend, get front and center, and get high on the feeling of dance.
+  </p>
+  
+  <h3>Jazz</h3>
+  <p>Jazz dance is a classification shared by a broad range of dance styles; it is evolved from early African American vernacular dances incorporating unique moves, footwork and imaginative improvisation to bring an energetic and entertaining experience.
+  </p>
+  
+  <h3>K Kardio</h3>
+  <p>The K-pop wave has taken the entertainment world by storm in recent years and if are a fan of it, shake and sing to the hits while burning calories in K-Kardio! Short for Korean-pop Cardio Dance, K Kardio is a one-hour non-stop dance workout to K-pop music. This class is suitable for all and regardless of your age or experience in dancing, you will enjoy the great variety of moves and beats.
+  </p>
+</div>
+
+<div id="Spinning Classes" class="tabcontent">
+  <h2>Spinning Classes</h2>
+  
+  <h3>Indoor Cycling Experience(ICE) I/II/III</h3>
+  
+  <h4>ICE I</h4>
+  <p>Highly recommended for those who want a solid foundation in bike set-up and cycling technique. A high energy workout, this indoor cycling workout is paced with light and music settings to create a vibrant atmosphere. Push your limits and get intense through warm-up, sprints, climbs and cool-down segments , with changing body positions, pedal speed and resistance.
+  </p>
+  
+  <h4>ICE II</h4>
+  <p>This programme has proven to be one of the most well-received fat-loss programmes thus far! Simple yet hyper-challenging!
+  </p>
+  
+  <h4>ICE III</h4>
+  <p>Expectations from participants as well as instructors alike are astronomical! Must have had regular training with Spin II to attempt this class.
+  </p>
+  
+  <h3>ICE Circuit</h3>
+  <p>Looking to work the entire body in just 60 minutes? Look no further than ICE Circuit - it combines both cardio and resistance training, involving a series of exercises with your upper body while on the bike. This includes push-ups, light weight-lifting and the usage of resistance bands. After just 45 minutes, you would have worked every muscle group in your body and your heartbeat is elevated. 
+  </p>
+  
+</div>
+
+<div id="Yoga and Pilates Matwork" class="tabcontent">
+  <h2>Yoga and Pilates Matwork</h2>
+  
+  <h3>ACROVINYASA Yoga</h3>
+  <p>ACROVINYASA takes yoga from the earth to the air. The core of ACROVINYASA is focused on synchronizing breath in movement, building strength and finding balance. Inspired by traditional yoga asanas and L-based acrobatic flying, this progressive yoga system includes both solo and partner practice. The aerial part revolves around one partner (the base) supporting the other (the flyer) in flying through the air in a sequenced series of yoga postures. For foundation practice, students must learn to be the active role to make sure both the base and the aerial person remain safe and exercise proper yoga postures alignment for the session. Benefits of the ACROVINYASA include increased strength, endurance and stamina while cultivating a strong and powerful sense of trust and reliance between both partners. 
+  </p>
+  
+  <h3>(Mat-based) Pilates I/II</h3>
+  <p>Intensity, focus and precision…words to describe this stability and postural corrective programme. A Mat-based Pilates class works the core muscle of the body, including the deeper muscle of the abdominals, back, shoulder blades and buttocks. The Pilates exercise stretches and strengthens your muscles in a non-impactful, controlled manner.
+  </p>
+</div>
+
+<div id="Personal Training" class="tabcontent">
+  <h2>Personal Training</h2>
+
+<h3>Cardio-Kickboxing Training</h3>
+<p>Cardio-kickboxing is an integration of kickboxing techniques and fitness concepts that keeps you on your toes with a great workout despite reducing the fight sparring element. Combining hand-eye coordination, core control and cathartic moves, the exercises also improve speed, agility, reflexes and stamina. On your feet through out and engaging all major muscles, this high-power, high-energy cardio routine will burn up to 900 calories in an hour to achieve weight loss and improved body strength.
+<br>Your personal trainer will create a workout at the training intensity level that suits your current fitness level, as cardio-kickboxing may be strenuous for someone who usually has a low level of activity, then the intensity will be raised as you progress and get stronger.
+</p>
+
+<h3>VibroGym Training</h3>
+<p>VibroGym training is a form of fitness training where you exercise on an equipment that vibrates during the work out. Generating vertical vibrations that are transferred to your body, the natural balance of the body is interrupted so to recover this balance, the muscles of the body will be stimulated immediately. Vibrations that vary with settings in high and low frequencies during exercise are created to help you reach a full body workout more effectively. VibroGym training is especially suitable for those who seek a low impact workout yet giving maximum results.
+<br>Personal trainers will create a suitable frequency and workout combination for your fitness level and goals. Higher frequencies help to relax the muscles for effective warm up and cool down, whilst lower frequencies help to increase muscle strength and tone as muscles are contracting more powerfully.
+</p>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+</script>
+   
+</body>
+</html> 
